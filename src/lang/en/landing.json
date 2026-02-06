@@ -1,0 +1,88 @@
+{
+  "navbar": {
+    "howItWorks": "How it works",
+    "dailyManagement": "Daily management",
+    "pioneerProgram": "Pioneer Program"
+  },
+  "hero": {
+    "tagline": "Intelligence in inventory",
+    "title": "The truth of your stock,",
+    "titleHighlight": "at last.",
+    "subtitle": "Reliable control of every bottle and alerts before you run out of stock. Peace of mind knowing what happens in your business, even when you're not there.",
+    "ctaPioneer": "Learn about Pioneer Program",
+    "warehouseStatus": "Warehouse status"
+  },
+  "problem": {
+    "line1": "Sales go up.",
+    "line2": "But where's the margin?",
+    "quote": "Controlling stock in bars, venues and festivals by intuition is leaving profitability to chance. Reliable control is no longer an option, it's a necessity."
+  },
+  "solution": {
+    "label": "VeroStock System",
+    "title": "Frictionless control",
+    "intro": "An intelligent system designed not to get in your team's way. Invisible technology that fits into your daily routine to give you certainty, not more work.",
+    "invisibleTechTitle": "Invisible technology",
+    "invisibleTechDesc": "Discrete devices that monitor bottle consumption and bar movement. No cables, no hassle, designed to withstand high-volume pace.",
+    "smartAnticipationTitle": "Smart anticipation",
+    "smartAnticipationDesc": "Get alerts before stock runs out. Define your own alert rules and manage both bar and warehouse with verifiable information from anywhere."
+  },
+  "benefits": {
+    "title": "Your business under control",
+    "reliableDataTitle": "RELIABLE DATA IN SECONDS",
+    "reliableDataDesc": "Digitise your bar and warehouse inventory. Forget manual discrepancies and end-of-shift guesswork.",
+    "clearVisionTitle": "CLEAR VIEW OF CONSUMPTION",
+    "clearVisionDesc": "Identify stock leaks and sales patterns with verifiable information. Take charge of your profitability with objective facts.",
+    "certaintyTitle": "CERTAINTY WHEN YOU'RE NOT THERE",
+    "certaintyDesc": "An intelligent system that learns from your business. Control what happens in your venue without needing to be there in person."
+  },
+  "pioneer": {
+    "badge": "Limited selection",
+    "title": "Pioneer Program",
+    "intro": "We're looking for the first reference venues and festivals to evolve the system together. It's not an aggressive sales pitch, but a collaboration to adapt VeroStock to the real needs of your day-to-day.",
+    "benefit1": "Direct support during rollout",
+    "benefit2": "Priority support and close contact",
+    "benefit3": "Early access to new features",
+    "benefit4": "Optimised implementation costs",
+    "cta": "Talk to us about the program"
+  },
+  "about": {
+    "imageAlt": "VeroStock Founders",
+    "label": "Our origin",
+    "title": "We didn't come from an office.",
+    "titleHighlight": "We know what the bar is like.",
+    "paragraph": "We understand Friday night pace and the precision you need on Monday morning. We've lived through closing counts that don't add up and the frustration of watching margin disappear with no explanation.",
+    "mission": "Our mission is for technology to work for you, giving you certainty and giving you back your time. We want you to regain control of your business."
+  },
+  "techSpecs": {
+    "connectivity": "Connectivity",
+    "installation": "Installation",
+    "infrastructure": "Infrastructure",
+    "integration": "Integration",
+    "value5g": "5G & IoT Ready",
+    "valuePlugPlay": "Plug & Play",
+    "valueCloudSync": "Cloud Sync",
+    "valueApi": "Universal API"
+  },
+  "cta": {
+    "title": "TAKE BACK CONTROL OF YOUR BUSINESS",
+    "subtitle": "Join the evolution of smart stock for bars, venues and festivals. Reliable information for owners who want operational peace of mind.",
+    "talkToUs": "Talk to us",
+    "scheduleMeeting": "Schedule a meeting"
+  },
+  "footer": {
+    "tagline": "the first invisible inventory control solution designed specifically for hospitality.",
+    "navigation": "Navigation",
+    "pioneerProgram": "Pioneer Program",
+    "howItWorks": "How it works",
+    "benefits": "Benefits",
+    "contact": "Contact",
+    "legal": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "socialBlog": "Social & Blog",
+    "blog": "Blog",
+    "copyright": "© {{year}} VEROSTOCK TECHNOLOGIES S.L.",
+    "designedFor": "Designed for VEROSTOCK TECHNOLOGIES S.L."
+  }
+}

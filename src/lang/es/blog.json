@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "solutions": "Soluciones",
+    "insights": "Insights",
+    "aboutUs": "Sobre Nosotros",
+    "contact": "Contacto"
+  },
+  "categories": {
+    "allInsights": "Todos los Insights",
+    "controlOperative": "Control y verdad operativa",
+    "invisibleLosses": "Pérdidas invisibles",
+    "managementWithoutBeing": "Gestión sin estar",
+    "realOperative": "Operativa real"
+  },
+  "home": {
+    "featuredLabel": "Destacado",
+    "recentInsights": "Insights Recientes",
+    "loadMore": "Cargar más artículos"
+  },
+  "articleCard": {
+    "readArticle": "Leer Artículo"
+  },
+  "newsletter": {
+    "title": "Insights Semanales",
+    "description": "Únete a más de 5,000 profesionales de la hostelería que ya reciben nuestros consejos expertos en control de stock.",
+    "placeholder": "Tu email de trabajo",
+    "submit": "Suscribirse Ahora"
+  },
+  "footer": {
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "knowledgeBase": "Base de Conocimiento",
+    "copyright": "© 2023 VeroStock Operations SL. Todos los derechos reservados."
+  },
+  "articleDetail": {
+    "notFound": "Artículo no encontrado.",
+    "insightAiLabel": "Insight IA VeroStock",
+    "analyzing": "Analizando...",
+    "regenerateSummary": "Regenerar Resumen",
+    "quickSummary": "Resumen Rápido",
+    "summaryPlaceholder": "Obtén un resumen profesional de 30 segundos generado por Gemini AI.",
+    "summaryComingSoon": "Funcionalidad de resumen con IA próximamente disponible.",
+    "challengeTitle": "El Desafío de la Hostelería Moderna",
+    "challengeParagraph": "Operar a grandes volúmenes no se trata solo de velocidad; se trata de precisión. Sin una única fuente de verdad, los equipos operan en silos, lo que provoca errores que, acumulados diariamente, cuestan miles de euros en ingresos perdidos.",
+    "quote": "La transición de conteos manuales a datos en tiempo real no fue solo una actualización; fue una transformación total de nuestro ADN operativo. Ya no adivinamos; sabemos.",
+    "solutionsTitle": "Soluciones Tecnológicas Inteligentes",
+    "solutionsIntro": "La plataforma integrada de VeroStock proporciona una visión unificada de todo el ecosistema operativo. Al aprovechar la integración de POS en tiempo real y el seguimiento inteligente, los gerentes pueden:",
+    "bullet1": "Monitorizar tasas de consumo por minuto en diferentes zonas.",
+    "bullet2": "Automatizar pedidos basados en patrones históricos de demanda.",
+    "bullet3": "Identificar y eliminar movimientos de stock no autorizados.",
+    "reflectionTitle": "Reflexión Estratégica",
+    "reflectionParagraph": "La eficiencia operativa no es solo una métrica de ahorro; es la base sobre la cual se construye la lealtad del cliente en entornos de alta demanda. La tecnología de stock no solo cuenta botellas; cuenta oportunidades aprovechadas.",
+    "contactPrompt": "Si esta situación te resulta familiar, podemos hablar.",
+    "contactLink": "Contactar con un especialista"
+  },
+  "articles": {
+    "1": {
+      "title": "La verdad tras el control operativo en recintos de gran volumen",
+      "description": "Descubre cómo los datos en tiempo real y la conciliación automatizada transforman la gestión de stock tradicional en una ventaja estratégica.",
+      "content": "En el acelerado mundo de la hostelería en estadios y grandes eventos, cada segundo cuenta. Cuando miles de aficionados inundan los pasillos durante un descanso de quince minutos, la diferencia entre un periodo de ventas récord y una pesadilla logística se reduce a una sola cosa: visibilidad precisa del inventario.\n\nGestionar el stock en cincuenta puntos de venta diferentes es un reto que los sistemas manuales tradicionales simplemente no pueden afrontar. El margen de error es mínimo. El exceso de stock provoca el desperdicio de productos perecederos, mientras que la falta de stock da lugar a \"fugas de clientes\": personas frustradas que abandonan la cola al no estar disponible su elección.",
+      "date": "24 Oct, 2023",
+      "readTime": "8 min de lectura"
+    },
+    "2": {
+      "title": "Descubriendo los asesinos silenciosos del beneficio en tu barra",
+      "description": "Desde el exceso de vertido hasta las mermas no registradas, conoce las tres áreas principales donde se escapa tu rentabilidad.",
+      "content": "La rentabilidad en barra no se pierde en grandes robos, sino en pequeñas acciones cotidianas no controladas. El \"over-pouring\" o exceso de servicio puede suponer hasta un 15% de pérdida de margen si no se monitoriza con herramientas de precisión...",
+      "date": "22 Oct, 2023",
+      "readTime": "5 min de lectura"
+    },
+    "3": {
+      "title": "Gestión Remota: Operativa desde cualquier lugar",
+      "description": "Cómo los sistemas basados en la nube permiten a los operadores de múltiples sedes mantener la supervisión sin presencia física.",
+      "content": "La ubicuidad es el nuevo estándar en la gestión hostelera. Gracias a la integración total de inventarios, un director de operaciones puede validar el estado de una bodega en otra ciudad en tiempo real...",
+      "date": "18 Oct, 2023",
+      "readTime": "6 min de lectura"
+    },
+    "4": {
+      "title": "Impacto del inventario en tiempo real en la velocidad del servicio",
+      "description": "Cuando el personal sabe exactamente qué hay en stock, toda la sala se mueve más rápido. Los datos son el aceite de tu motor operativo.",
+      "content": "Un camarero que conoce la rotura de stock antes de llegar a la mesa es un camarero eficiente. La integración de la verdad operativa elimina los viajes innecesarios y las disculpas al cliente...",
+      "date": "15 Oct, 2023",
+      "readTime": "4 min de lectura"
+    },
+    "5": {
+      "title": "Control de stock avanzado para destilados Premium",
+      "description": "Mantener márgenes en artículos de alto valor requiere un nivel de precisión diferente. Este es el marco para locales de lujo.",
+      "content": "En botellas cuyo coste supera los cien euros, cada cl cuenta. La metodología VeroStock permite una trazabilidad unidad por unidad que garantiza que el lujo sea también rentable...",
+      "date": "10 Oct, 2023",
+      "readTime": "7 min de lectura"
+    },
+    "6": {
+      "title": "Cerrando la brecha entre la sala y la cocina",
+      "description": "La verdad operativa significa que todos trabajan con la misma partitura. Cómo los sistemas integrados unen equipos.",
+      "content": "La fricción entre sala y cocina suele nacer de la falta de información compartida. Cuando el sistema de gestión es el corazón centralizado de la operación, los conflictos desaparecen...",
+      "date": "05 Oct, 2023",
+      "readTime": "5 min de lectura"
+    }
+  }
+}

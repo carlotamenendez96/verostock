@@ -1,0 +1,88 @@
+{
+  "navbar": {
+    "howItWorks": "Cómo funciona",
+    "dailyManagement": "Gestión diaria",
+    "pioneerProgram": "Programa Pioneer"
+  },
+  "hero": {
+    "tagline": "Inteligencia en inventario",
+    "title": "La verdad de tu stock,",
+    "titleHighlight": "por fin.",
+    "subtitle": "Control fiable de cada botella y alertas antes de que te quedes sin stock. La tranquilidad de saber qué pasa en tu negocio, incluso cuando no estás presente.",
+    "ctaPioneer": "Conocer Programa Pioneer",
+    "warehouseStatus": "Estado del almacén"
+  },
+  "problem": {
+    "line1": "Las ventas suben.",
+    "line2": "¿Pero dónde está el margen?",
+    "quote": "Controlar el stock de bares, salas y festivales por intuición es dejar la rentabilidad en manos del azar. El control fiable ya no es una opción, es una necesidad."
+  },
+  "solution": {
+    "label": "Sistema VeroStock",
+    "title": "Control sin fricción",
+    "intro": "Un sistema inteligente diseñado para no molestar a tu equipo. Tecnología invisible que se integra en tu día a día para darte certezas, no más trabajo.",
+    "invisibleTechTitle": "Tecnología invisible",
+    "invisibleTechDesc": "Dispositivos discretos que monitorizan el consumo de botellas y el movimiento en barra. Sin cables, sin complicaciones y diseñados para resistir el ritmo del alto volumen.",
+    "smartAnticipationTitle": "Anticipación inteligente",
+    "smartAnticipationDesc": "Recibe avisos antes de que el stock se agote. Define tus propias reglas de alerta y gestiona tanto la barra como el almacén con información verificable desde cualquier lugar."
+  },
+  "benefits": {
+    "title": "Tu negocio bajo control",
+    "reliableDataTitle": "DATOS FIABLES EN SEGUNDOS",
+    "reliableDataDesc": "Digitaliza el inventario de tu barra y almacén. Olvida los descuadres manuales y las suposiciones al cierre del turno.",
+    "clearVisionTitle": "VISIÓN CLARA DEL CONSUMO",
+    "clearVisionDesc": "Identifica fugas de stock y patrones de venta con información verificable. Toma el mando de tu rentabilidad con hechos objetivos.",
+    "certaintyTitle": "CERTEZA CUANDO NO ESTÁS",
+    "certaintyDesc": "Un sistema inteligente que aprende de tu negocio. Controla lo que pasa en tu local sin necesidad de estar presente físicamente."
+  },
+  "pioneer": {
+    "badge": "Selección limitada",
+    "title": "Programa Pioneer",
+    "intro": "Buscamos los primeros locales y festivales referentes para evolucionar el sistema juntos. No es una propuesta comercial agresiva, sino una colaboración para adaptar VeroStock a las necesidades reales de tu día a día.",
+    "benefit1": "Acompañamiento directo en la puesta en marcha",
+    "benefit2": "Soporte prioritario y cercanía total",
+    "benefit3": "Acceso preferente a nuevas funcionalidades",
+    "benefit4": "Optimización de costes de implantación",
+    "cta": "Hablar con nosotras sobre el programa"
+  },
+  "about": {
+    "imageAlt": "VeroStock Founders",
+    "label": "Nuestro origen",
+    "title": "No venimos de un despacho.",
+    "titleHighlight": "Sabemos lo que es la barra.",
+    "paragraph": "Entendemos el ritmo del viernes noche y la precisión que necesitas el lunes por la mañana. Hemos vivido los cierres que no cuadran y la frustración de ver cómo el margen se pierde sin explicación.",
+    "mission": "Nuestra misión es que la tecnología trabaje para ti, dándote certezas y devolviéndote el tiempo. Queremos que recuperes el control de tu negocio."
+  },
+  "techSpecs": {
+    "connectivity": "Conectividad",
+    "installation": "Instalación",
+    "infrastructure": "Infraestructura",
+    "integration": "Integración",
+    "value5g": "5G & IoT Ready",
+    "valuePlugPlay": "Plug & Play",
+    "valueCloudSync": "Cloud Sync",
+    "valueApi": "Universal API"
+  },
+  "cta": {
+    "title": "RECUPERA EL MANDO DE TU NEGOCIO",
+    "subtitle": "Únete a la evolución del stock inteligente para bares, salas y festivales. Información fiable para dueños que buscan tranquilidad operativa.",
+    "talkToUs": "Hablar con nosotras",
+    "scheduleMeeting": "Agenda una cita"
+  },
+  "footer": {
+    "tagline": "la primera solución de control de inventario invisible diseñada específicamente para la hostelería.",
+    "navigation": "Navegación",
+    "pioneerProgram": "Programa Pioneer",
+    "howItWorks": "Cómo funciona",
+    "benefits": "Beneficios",
+    "contact": "Contacto",
+    "legal": "Legal",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "cookies": "Cookies",
+    "socialBlog": "Social & Blog",
+    "blog": "Blog",
+    "copyright": "© {{year}} VEROSTOCK TECHNOLOGIES S.L.",
+    "designedFor": "VEROSTOCK TECHNOLOGIES S.L."
+  }
+}
