@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
           <span className="text-xl font-display font-bold tracking-tight">VeroStock</span>
         </Link>
 
-        <nav className="hidden md:flex items-center gap-10">
+        <nav className="hidden items-center gap-10" aria-hidden="true">
           <a href="#" className="text-sm font-medium hover:text-primary transition-colors">{t('blog:nav.solutions')}</a>
           <a href="#" className="text-sm font-medium text-primary transition-colors">{t('blog:nav.insights')}</a>
           <a href="#" className="text-sm font-medium hover:text-primary transition-colors">{t('blog:nav.aboutUs')}</a>
@@ -35,7 +35,6 @@ const Navbar: React.FC = () => {
 
         <div className="flex items-center gap-6">
           <LanguageSelector variant="blog" />
-          <button className="material-symbols-outlined text-deep-black hover:text-primary transition-colors" type="button" aria-label={t('common:searchAriaLabel')}>search</button>
           <button className="hidden sm:block bg-primary text-white text-[10px] font-bold uppercase tracking-widest px-6 py-3 rounded-lg hover:brightness-105 transition-all shadow-sm shadow-primary/20" type="button">
             {t('common:requestDemo')}
           </button>

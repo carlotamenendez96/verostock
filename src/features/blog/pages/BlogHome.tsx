@@ -10,9 +10,13 @@ const BlogHome: React.FC = () => {
   const { t } = useTranslation(['common', 'blog']);
   const categories = getCategories();
   const [activeCategory, setActiveCategory] = useState<CategoryKey>(categories[0]);
-  const articles = getArticles();
-  const featured = articles.find((a) => a.featured) ?? articles[0];
-  const recent = articles.filter((a) => !a.featured);
+  const allArticles = getArticles();
+  const filteredArticles =
+    activeCategory === 'allInsights'
+      ? allArticles
+      : allArticles.filter((a) => a.categoryKey === activeCategory);
+  const featured = filteredArticles.find((a) => a.featured) ?? filteredArticles[0];
+  const recent = featured ? filteredArticles.filter((a) => a.id !== featured.id) : [];
 
   return (
     <main className="max-w-[1200px] mx-auto w-full px-6 lg:px-12 py-12">
@@ -33,6 +37,11 @@ const BlogHome: React.FC = () => {
       </div>
 
       <section className="mb-24">
+        {filteredArticles.length === 0 ? (
+          <p className="text-neutral-gray text-center py-16 font-sans">
+            {t('blog:home.noArticlesInCategory')}
+          </p>
+        ) : featured ? (
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           <div className="lg:col-span-7">
             <Link to={`/blog/article/${featured.id}`} className="block w-full aspect-[16/9] rounded-2xl overflow-hidden bg-gray-100 shadow-xl shadow-black/5">
@@ -66,8 +75,10 @@ const BlogHome: React.FC = () => {
             </div>
           </div>
         </div>
+        ) : null}
       </section>
 
+      {filteredArticles.length > 0 && (
       <section>
         <div className="flex justify-between items-end mb-12">
           <h2 className="text-2xl font-display font-bold uppercase tracking-tighter border-l-4 border-primary pl-5">
@@ -99,6 +110,7 @@ const BlogHome: React.FC = () => {
           </button>
         </div>
       </section>
+      )}
     </main>
   );
 };

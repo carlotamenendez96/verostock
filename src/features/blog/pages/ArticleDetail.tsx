@@ -6,8 +6,6 @@ import { getArticleById } from '../data/articles';
 const ArticleDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const { t } = useTranslation('blog');
-  const [summary, setSummary] = useState<string | null>(null);
-  const [loadingSummary, setLoadingSummary] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
 
   const article = id ? getArticleById(id) : undefined;
@@ -31,15 +29,32 @@ const ArticleDetail: React.FC = () => {
   const title = t(`articles.${article.id}.title`);
   const description = t(`articles.${article.id}.description`);
   const content = t(`articles.${article.id}.content`);
+  const cta = t(`articles.${article.id}.cta`);
   const date = t(`articles.${article.id}.date`);
   const categoryLabel = t(`categories.${article.categoryKey}`);
 
-  const handleGenerateSummary = async () => {
-    setLoadingSummary(true);
-    setTimeout(() => {
-      setSummary(t('articleDetail.summaryComingSoon'));
-      setLoadingSummary(false);
-    }, 1000);
+  const contentBlocks = content.split(/\n\n+/).filter((block) => block.trim());
+  const renderContentBlock = (block: string, index: number) => {
+    const trimmed = block.trim();
+    const isList = trimmed.startsWith('- ') && trimmed.includes('\n');
+    if (isList) {
+      const items = trimmed.split('\n').filter((line) => line.trim());
+      return (
+        <ul key={index} className="list-none space-y-3 pl-0 my-6">
+          {items.map((line, i) => (
+            <li key={i} className="flex gap-3 items-start text-neutral-gray leading-loose">
+              <span className="material-symbols-outlined text-primary text-lg mt-0.5 shrink-0">check_circle</span>
+              <span>{line.replace(/^-\s*/, '').trim()}</span>
+            </li>
+          ))}
+        </ul>
+      );
+    }
+    return (
+      <p key={index} className="mb-6">
+        {trimmed}
+      </p>
+    );
   };
 
   return (
@@ -53,6 +68,13 @@ const ArticleDetail: React.FC = () => {
 
       <main className="pt-20 pb-24 px-6">
         <article className="max-w-[800px] mx-auto">
+          <Link
+            to="/blog"
+            className="inline-flex items-center gap-2 text-neutral-gray hover:text-primary font-sans text-sm font-medium mb-10 transition-colors group"
+          >
+            <span className="material-symbols-outlined text-lg transition-transform group-hover:-translate-x-1">arrow_back</span>
+            {t('articleDetail.backToBlog')}
+          </Link>
           <header className="text-center mb-16">
             <p className="text-neutral-gray font-display font-bold text-[10px] tracking-[0.3em] uppercase mb-6">
               {t('nav.insights')} / {categoryLabel} — {date}
@@ -73,84 +95,24 @@ const ArticleDetail: React.FC = () => {
             />
           </div>
 
-          <div className="mb-16 p-8 rounded-2xl bg-primary/5 border border-primary/20">
-            <div className="flex items-center justify-between gap-4 mb-4">
-              <div className="flex items-center gap-3">
-                <span className="material-symbols-outlined text-primary">auto_awesome</span>
-                <span className="font-display font-bold text-xs uppercase tracking-widest text-primary">{t('articleDetail.insightAiLabel')}</span>
-              </div>
-              <button
-                onClick={handleGenerateSummary}
-                disabled={loadingSummary}
-                className="text-[10px] font-bold uppercase tracking-widest bg-primary text-white px-5 py-2 rounded-lg hover:brightness-105 disabled:opacity-50 transition-all"
-                type="button"
-              >
-                {loadingSummary ? t('articleDetail.analyzing') : summary ? t('articleDetail.regenerateSummary') : t('articleDetail.quickSummary')}
-              </button>
-            </div>
-            {summary && (
-              <div className="text-neutral-gray leading-relaxed font-sans text-sm border-t border-primary/10 pt-4 animate-in fade-in slide-in-from-top-2 duration-500">
-                {summary}
-              </div>
-            )}
-            {!summary && !loadingSummary && (
-              <p className="text-xs text-neutral-gray/60 italic">{t('articleDetail.summaryPlaceholder')}</p>
-            )}
+          <div className="prose prose-lg max-w-none prose-headings:font-display prose-headings:font-bold prose-p:text-neutral-gray prose-p:leading-loose">
+            {contentBlocks.map(renderContentBlock)}
           </div>
 
-          <div className="prose prose-lg max-w-none prose-headings:font-display prose-headings:font-bold prose-p:text-neutral-gray prose-p:leading-loose prose-blockquote:border-primary prose-blockquote:bg-primary/5 prose-blockquote:p-10 prose-blockquote:rounded-r-2xl prose-blockquote:not-italic prose-blockquote:text-xl">
-            <p>{content}</p>
-
-            <h2 className="mt-16 mb-8 text-3xl">{t('articleDetail.challengeTitle')}</h2>
-            <p>
-              {t('articleDetail.challengeParagraph')}
-            </p>
-
-            <blockquote className="my-16 font-display font-medium text-deep-black">
-              "{t('articleDetail.quote')}"
-            </blockquote>
-
-            <h3 className="text-2xl font-display mb-6">{t('articleDetail.solutionsTitle')}</h3>
-            <p>
-              {t('articleDetail.solutionsIntro')}
-            </p>
-            <ul className="list-none space-y-6 pl-0">
-              <li className="flex gap-4 items-start">
-                <span className="material-symbols-outlined text-primary text-xl mt-1">check_circle</span>
-                <span>{t('articleDetail.bullet1')}</span>
-              </li>
-              <li className="flex gap-4 items-start">
-                <span className="material-symbols-outlined text-primary text-xl mt-1">check_circle</span>
-                <span>{t('articleDetail.bullet2')}</span>
-              </li>
-              <li className="flex gap-4 items-start">
-                <span className="material-symbols-outlined text-primary text-xl mt-1">check_circle</span>
-                <span>{t('articleDetail.bullet3')}</span>
-              </li>
-            </ul>
-
-            <div className="mt-24 p-12 bg-deep-black text-white rounded-3xl relative overflow-hidden group">
-              <div className="absolute top-0 right-0 p-8 text-primary opacity-20 group-hover:scale-125 transition-transform duration-700">
-                <span className="material-symbols-outlined text-8xl">lightbulb</span>
-              </div>
-              <h4 className="font-display font-bold text-[10px] uppercase tracking-[0.4em] text-primary mb-6">{t('articleDetail.reflectionTitle')}</h4>
-              <p className="text-2xl font-display font-light leading-relaxed relative z-10 italic">
-                {t('articleDetail.reflectionParagraph')}
-              </p>
+          <div className="mt-24 p-12 bg-deep-black text-white rounded-3xl relative overflow-hidden group">
+            <div className="absolute top-0 right-0 p-8 text-primary opacity-20 group-hover:scale-125 transition-transform duration-700">
+              <span className="material-symbols-outlined text-8xl">lightbulb</span>
             </div>
-
-            <div className="mt-24 text-center border-t border-gray-100 pt-20">
-              <p className="text-xl font-display text-neutral-gray mb-8">
-                {t('articleDetail.contactPrompt')}
-              </p>
-              <Link
-                to="/blog"
-                className="inline-flex items-center gap-3 text-primary font-bold text-lg hover:underline transition-all group"
-              >
-                {t('articleDetail.contactLink')}
-                <span className="material-symbols-outlined transition-transform group-hover:translate-x-2">arrow_forward</span>
-              </Link>
-            </div>
+            <p className="text-xl font-display font-light leading-relaxed relative z-10 mb-8">
+              {cta}
+            </p>
+            <Link
+              to="/blog"
+              className="inline-flex items-center gap-3 text-primary font-bold text-lg hover:underline transition-all group"
+            >
+              {t('articleDetail.contactLink')}
+              <span className="material-symbols-outlined transition-transform group-hover:translate-x-2">arrow_forward</span>
+            </Link>
           </div>
         </article>
       </main>
