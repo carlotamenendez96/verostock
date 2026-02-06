@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const About: React.FC = () => {
   const { t } = useTranslation('landing');
   return (
-    <section className="bg-background-dark py-24 overflow-hidden">
+    <section id="sobre-nosotros" className="bg-background-dark py-24 overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col lg:flex-row gap-16 items-center">
           <div className="lg:w-1/2 relative">

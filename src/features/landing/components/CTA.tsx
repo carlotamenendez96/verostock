@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const CTA: React.FC = () => {
   const { t } = useTranslation(['common', 'landing']);
   return (
-    <section className="bg-background-dark py-32 relative overflow-hidden">
+    <section id="contacto" className="bg-background-dark py-32 relative overflow-hidden">
       <div className="absolute inset-0 z-0 opacity-10">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] border border-primary/20 rounded-full animate-[pulse_8s_infinite]"></div>
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] border border-primary/20 rounded-full animate-[pulse_6s_infinite]"></div>

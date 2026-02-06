@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { getArticles, getCategories } from '../data/articles';
@@ -6,9 +6,15 @@ import { CategoryKey } from '../types';
 import ArticleCard from '../components/ArticleCard';
 import NewsletterCard from '../components/NewsletterCard';
 
+const BLOG_HOME_TITLE_SUFFIX = ' | VeroStock';
+
 const BlogHome: React.FC = () => {
   const { t } = useTranslation(['common', 'blog']);
   const categories = getCategories();
+
+  useEffect(() => {
+    document.title = `${t('blog:home.pageTitle')}${BLOG_HOME_TITLE_SUFFIX}`;
+  }, [t]);
   const [activeCategory, setActiveCategory] = useState<CategoryKey>(categories[0]);
   const allArticles = getArticles();
   const filteredArticles =
@@ -20,6 +26,7 @@ const BlogHome: React.FC = () => {
 
   return (
     <main className="max-w-[1200px] mx-auto w-full px-6 lg:px-12 py-12">
+      <h1 className="sr-only">{t('blog:home.pageTitle')}</h1>
       <div className="w-full mb-12">
         <div className="flex items-center gap-8 overflow-x-auto no-scrollbar whitespace-nowrap pb-2 border-b border-gray-100">
           {categories.map((cat) => (
@@ -57,9 +64,9 @@ const BlogHome: React.FC = () => {
               {t('blog:home.featuredLabel')} • {t(`blog:categories.${featured.categoryKey}`)}
             </span>
             <Link to={`/blog/article/${featured.id}`}>
-              <h1 className="text-3xl lg:text-5xl font-display font-bold leading-[1.1] mb-6 hover:text-primary transition-colors">
+              <h2 className="text-3xl lg:text-5xl font-display font-bold leading-[1.1] mb-6 hover:text-primary transition-colors">
                 {t(`blog:articles.${featured.id}.title`)}
-              </h1>
+              </h2>
             </Link>
             <p className="text-neutral-gray text-lg leading-relaxed mb-8 font-light">
               {t(`blog:articles.${featured.id}.description`)}
@@ -80,34 +87,18 @@ const BlogHome: React.FC = () => {
 
       {filteredArticles.length > 0 && (
       <section>
-        <div className="flex justify-between items-end mb-12">
-          <h2 className="text-2xl font-display font-bold uppercase tracking-tighter border-l-4 border-primary pl-5">
-            {t('blog:home.recentInsights')}
-          </h2>
-          <div className="hidden sm:flex gap-3">
-            <button className="size-10 flex items-center justify-center border border-gray-200 rounded-full hover:bg-gray-50 hover:border-primary hover:text-primary transition-all" type="button">
-              <span className="material-symbols-outlined text-xl">chevron_left</span>
-            </button>
-            <button className="size-10 flex items-center justify-center border border-gray-200 rounded-full hover:bg-gray-50 hover:border-primary hover:text-primary transition-all" type="button">
-              <span className="material-symbols-outlined text-xl">chevron_right</span>
-            </button>
-          </div>
-        </div>
+        <h2 className="text-2xl font-display font-bold uppercase tracking-tighter border-l-4 border-primary pl-5 mb-12">
+          {t('blog:home.recentInsights')}
+        </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-20">
-          {recent.slice(0, 2).map((article) => (
+          {recent.slice(0, 4).map((article) => (
             <ArticleCard key={article.id} article={article} />
           ))}
           <NewsletterCard />
-          {recent.slice(2).map((article) => (
+          {recent.slice(4).map((article) => (
             <ArticleCard key={article.id} article={article} />
           ))}
-        </div>
-
-        <div className="mt-24 flex justify-center">
-          <button className="border-b-2 border-primary text-deep-black font-bold uppercase tracking-[0.2em] text-[10px] py-2 hover:bg-primary/5 px-8 transition-all" type="button">
-            {t('blog:home.loadMore')}
-          </button>
         </div>
       </section>
       )}

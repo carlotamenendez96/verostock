@@ -3,12 +3,69 @@ import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { getArticleById } from '../data/articles';
 
+const ARTICLE_TITLE_SUFFIX = ' | VeroStock';
+
 const ArticleDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const { t } = useTranslation('blog');
   const [scrollProgress, setScrollProgress] = useState(0);
 
   const article = id ? getArticleById(id) : undefined;
+
+  useEffect(() => {
+    if (article) {
+      const title = t(`articles.${article.id}.title`);
+      document.title = `${title}${ARTICLE_TITLE_SUFFIX}`;
+      const description = t(`articles.${article.id}.description`);
+      const metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc) {
+        metaDesc.setAttribute('content', description);
+      } else {
+        const meta = document.createElement('meta');
+        meta.name = 'description';
+        meta.content = description;
+        document.head.appendChild(meta);
+      }
+
+      const canonical = `${window.location.origin}/blog/article/${article.id}`;
+      const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: title,
+        description,
+        image: article.imageUrl,
+        datePublished: article.publishedDate,
+        publisher: {
+          '@type': 'Organization',
+          name: 'VeroStock',
+        },
+        mainEntityOfPage: {
+          '@type': 'WebPage',
+          '@id': canonical,
+        },
+      };
+      const script = document.createElement('script');
+      script.id = 'article-jsonld';
+      script.type = 'application/ld+json';
+      script.textContent = JSON.stringify(jsonLd);
+      document.head.appendChild(script);
+
+      let linkCanonical = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
+      let linkWeCreated: HTMLLinkElement | null = null;
+      if (!linkCanonical) {
+        linkWeCreated = document.createElement('link');
+        linkWeCreated.rel = 'canonical';
+        document.head.appendChild(linkWeCreated);
+        linkCanonical = linkWeCreated;
+      }
+      linkCanonical.href = canonical;
+
+      return () => {
+        document.getElementById('article-jsonld')?.remove();
+        linkWeCreated?.remove();
+      };
+    }
+  }, [article, t]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -77,7 +134,7 @@ const ArticleDetail: React.FC = () => {
           </Link>
           <header className="text-center mb-16">
             <p className="text-neutral-gray font-display font-bold text-[10px] tracking-[0.3em] uppercase mb-6">
-              {t('nav.insights')} / {categoryLabel} — {date}
+              {t('nav.insights')} / {categoryLabel} — <time dateTime={article.publishedDate}>{date}</time>
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-deep-black leading-[1.1] mb-10">
               {title}

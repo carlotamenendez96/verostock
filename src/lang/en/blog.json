@@ -3,7 +3,8 @@
     "solutions": "Solutions",
     "insights": "Insights",
     "aboutUs": "About Us",
-    "contact": "Contact"
+    "contact": "Contact",
+    "ariaLabel": "Main navigation"
   },
   "categories": {
     "allInsights": "All Insights",
@@ -13,6 +14,7 @@
     "realOperative": "Real operations"
   },
   "home": {
+    "pageTitle": "Insights",
     "featuredLabel": "Featured",
     "recentInsights": "Recent Insights",
     "loadMore": "Load more articles",
@@ -25,13 +27,14 @@
     "title": "Weekly Insights",
     "description": "Join over 5,000 hospitality professionals who already receive our expert tips on stock control.",
     "placeholder": "Your work email",
-    "submit": "Subscribe Now"
+    "submit": "Subscribe Now",
+    "thankYou": "Thank you! We'll be in touch soon."
   },
   "footer": {
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
     "knowledgeBase": "Knowledge Base",
-    "copyright": "© 2023 VeroStock Operations SL. All rights reserved."
+    "copyright": "© 2026 VeroStock Operations SL. All rights reserved."
   },
   "articleDetail": {
     "backToBlog": "Back to blog",
@@ -49,7 +52,7 @@
       "title": "Why alcohol stock fails in most bars (and how to fix it for real)",
       "description": "The problem isn't people: it's confusing movement with consumption. We explain the real cause and the paradigm shift that actually works.",
       "content": "“I thought I had five bottles and I ran out.” If you've heard or lived this in your bar, you're not alone. It's one of the most common pains in hospitality: stock that doesn't add up, surprises in the middle of service, and the feeling that something is slipping through your fingers.\n\nThe temptation is to blame the person who didn't log the movement or who didn't do the count. But the root problem usually isn't your team's good or bad will. It's the model you use to manage stock.\n\nTraditional systems fail by design. Excel forces manual data entry and gets out of date as soon as someone skips a row. Manual inventories are costly in time, create friction, and only give you a snapshot—the next day everything may have changed. And movement-based control—“I take a bottle from the cellar and move it to the bar”—seems logical, but that's exactly where the mistake is.\n\nThe big mistake: confusing movement with consumption. A bottle leaving the cellar and sitting at the bar doesn't mean it's been consumed. It might be half open, it might have broken, it might have been over-poured in one round. If you reduce stock when you move the bottle, your number no longer reflects reality. It only reflects that “someone moved it.”\n\nThe paradigm shift is simple to understand and hard to apply without the right tool: stock should only go down when there's consumption. That is, when there's a sale or a served item that matches that product. Then the number you see is what you actually have available, not an estimate based on transfers.\n\nTechnology can remove human error at this point. It's not about watching anyone; it's about the system recording real consumption (e.g. linked to the POS or the sale) and updating stock accordingly. No endless inventories, no outdated Excel, no arguments about who wrote what. A system where stock reflects real consumption is the foundation for making the right decisions: what to reorder, when, and in what quantities.",
-      "date": "28 Jan, 2025",
+      "date": "28 Feb, 2026",
       "readTime": "6 min read",
       "cta": "Discover how a system works where stock reflects real consumption."
     },
@@ -57,7 +60,7 @@
       "title": "Movement ≠ consumption: the mistake that costs bars and clubs money",
       "description": "A bottle goes from the cellar to the bar. In most venues that's already counted as “less stock.” We explain why that approach costs money and what to do instead.",
       "content": "Imagine a bottle of whisky leaving the cellar and being placed at the bar. In most bars and clubs, that movement is logged as “one unit less” in stock. The spreadsheet or the notebook says: we no longer have that bottle in the cellar. Full stop.\n\nBut the bottle still exists. It's at the bar, maybe open, maybe half empty. It might pour twenty more drinks or it might fall in two hours. What hasn't happened is that it's been “consumed” in the sense of being fully sold or served. Yet the system has already written it off.\n\nIn most venues exactly that happens: “movement” is equated with “consumption.” Every time something moves from one place to another, stock goes down. The result is numbers that don't represent reality. You don't know how many bottles you actually have; you know how many have been moved. The gap shows up as unexplained breakages, a feeling that “something's missing,” and arguments with the team about who wrote what.\n\nWhat should happen is a different model: stock only goes down when there's real consumption. That is, when that bottle (or that amount) has been served or sold and it's recorded. Then at all times you have an accurate view of what's in the cellar and what's at the bar, and how much has actually been consumed.\n\nReducing stock only on consumption isn't a technical detail; it's the key to serious control. It brings direct benefits: fewer surprises from breakages or shrink that “don't add up,” fewer arguments because the data is objective, and better control over reorders and purchasing. The team works from a single source of truth.\n\nAn intelligent bottle control system can apply exactly this logic: record additions, movements and consumption separately, and show in real time how much there is and how much has been consumed. No endless manual inventories and no confusing movement with consumption.",
-      "date": "25 Jan, 2025",
+      "date": "25 Feb, 2026",
       "readTime": "5 min read",
       "cta": "This is how our intelligent bottle control system works."
     },
@@ -65,7 +68,7 @@
       "title": "How to know exactly how many bottles you have without doing inventories",
       "description": "The traditional inventory is a chore and nobody wants to do it. We explain the automatic approach: additions, consumption and history, and what information you have in real time.",
       "content": "The traditional inventory has a fundamental problem: nobody wants to do it. Closing the venue, counting bottle by bottle, writing it on a sheet or in an app, reconciling with what “should” be there… It's costly in time, creates tension with the team, and only gives you a snapshot. The next day, that snapshot is already useless.\n\nThere's another approach, and it's automatic. It's not about replacing the inventory with something equally manual, but about the system building the true stock from three pillars: the initial product setup, the recording of consumption (when something is sold or served), and the history of movements. So instead of “stopping everything to count,” the system knows at any moment what's there and what's been consumed.\n\nWith this approach you have in real time the information that matters: how many units you have per product, in which location (cellar, main bar, terrace bar, etc.) if you use location-based control, and how much has been consumed in a period. You don't need to close the venue or spend hours counting.\n\nEqually important is what you don't need to enter manually. You don't have to log every time someone moves a bottle from one place to another to “update stock.” The system can be linked to the POS or the sale, so consumption is recorded when the sale happens. You take care of adding products and reviewing alerts; the rest can be automatic.\n\nThe saving is twofold: time (no more endless inventories) and errors (no more numbers that don't add up because someone forgot to log a movement). Knowing exactly how many bottles you have stops being a heavy task and becomes something the system shows you when you need it.",
-      "date": "22 Jan, 2025",
+      "date": "22 Feb, 2026",
       "readTime": "5 min read",
       "cta": "Automate stock control and forget about manual inventory."
     },
@@ -73,7 +76,7 @@
       "title": "Low stock on a Saturday night: how to avoid it with automatic alerts",
       "description": "The worst time to run out of a key product is when you have the most customers. We explain minimum stock rules and WhatsApp alerts with real examples.",
       "content": "The worst-case scenario is familiar to any operator: it's Saturday night, the room is full, and you realise you've run out of the gin everyone orders or the mixer for your signature cocktail. There's no time to go and buy more, the customer settles for something else or leaves with a bad impression, and you lose sales and margin.\n\nThis often happens “when it hurts most”: at peak traffic, when you most need everything in place. It's no coincidence. Without real-time stock control and clear rules, it's easy for a product to run out without anyone noticing until a server goes to pour it.\n\nThe solution isn't to watch more; it's to define minimum stock rules. That is, set a threshold for each product (or product group): “When there are X units left, I want to be notified.” Then the alert comes before you hit zero, and you can reorder in a quiet moment or order from your supplier in time.\n\nAutomatic WhatsApp alerts fit perfectly here. Instead of relying on someone checking a screen or a report, the system sends a message when stock falls below the configured minimum. Real examples would be: “Stock alert: Premium Vodka below minimum (3 units) at main bar” or “Low stock: Tonic — 2 units in cellar. Reorder before the weekend.”\n\nGetting alerts before it's too late changes how you operate. You stop putting out fires on Saturday night and start having control in the hands of the system, with clear, actionable messages for you or your manager.",
-      "date": "18 Jan, 2025",
+      "date": "18 Feb, 2026",
       "readTime": "4 min read",
       "cta": "Get alerts before it's too late."
     },
@@ -81,7 +84,7 @@
       "title": "Bottle traceability in bars: what it is and why it will make the difference",
       "description": "Knowing where each bottle is and when it was moved is no longer science fiction. We explain traceability in hospitality and what it's for in large venues or chains.",
       "content": "In hospitality, traceability is the ability to follow the “trail” of a product: where it came from, where it is at any moment, and when it was moved or consumed. For many drinks and foods it's a legal requirement; for day-to-day bar operations, it's the basis of professional control.\n\nUntil now, in practice it was almost impossible to have real traceability of each bottle without someone writing down every movement by hand. Classic systems (Excel, notebooks, even many apps) weren't designed to record “this specific bottle went from cellar to bar A at 14:32.” So most venues only know “how many bottles there are” in total, not “where each one is.”\n\nProper traceability lets you know where each bottle is (cellar, main bar, terrace bar, etc.) and when it was moved or consumed. That opens the door to spotting anomalies: for example, a bottle appearing somewhere it shouldn't, or movements at odd times. It's not about distrusting the team; it's about having objective data to improve processes and avoid loss.\n\nThis level of control is especially valuable in large venues, with multiple bars or shifts, or in chains with multiple sites. When volume grows, “counting bottles” is no longer enough; you need to know at which point in the operation each one is and to be able to audit the history.\n\nCurrent technology allows this next level without going back to endless manual inventories. It's the natural step when you want to professionalise control and prepare for growth.",
-      "date": "14 Jan, 2025",
+      "date": "14 Feb, 2026",
       "readTime": "5 min read",
       "cta": "Get ready for the next level of control."
     },
@@ -89,7 +92,7 @@
       "title": "Stock control by bar: the big leap in venue management",
       "description": "One bar packed with stock and another empty of the same product is a classic. We explain why global stock isn't enough and how bar-level rules and alerts work.",
       "content": "The typical problem in venues with more than one bar is this: at the main bar there are three bottles of a popular spirit; at the terrace bar or the VIP bar there are none. The venue's “global” stock might be fine, but where it's needed—at that bar—it isn't. Result: the terrace server has to go to the other end of the venue to get the bottle, time is lost, and service suffers.\n\nThat's why global stock isn't enough when you have several bars. You need to know how much is at each location and to define rules per location: for example, “at the terrace bar I want a minimum of two units of this product.”\n\nWith bar-level stock control, each bar is managed as an independent unit for stock. You log movements between bars (transfers) and the system knows at all times what's at each one. So you can set bar-specific alerts: “Notify me when there are fewer than 2 bottles of Premium Vodka at the terrace bar,” without mixing with what's at the main bar.\n\nThe improvement in internal replenishment is clear. Instead of discovering the imbalance when a server goes to pour and there's no stock at their bar, you get an alert or see at a glance which bar needs what. You can replenish from the cellar or transfer between bars with criteria, not based on “someone said we're short.”\n\nManaging each bar as an independent unit is the big leap when you go from a single point of sale to several: more control, less improvisation, and smoother service.",
-      "date": "10 Jan, 2025",
+      "date": "10 Feb, 2026",
       "readTime": "5 min read",
       "cta": "Manage each bar as an independent unit."
     },
@@ -97,7 +100,7 @@
       "title": "How to reduce alcohol loss and theft without watching your team",
       "description": "The uncomfortable topic many avoid: loss and theft. We explain why watching people doesn't work and why controlling processes and data does.",
       "content": "It's the elephant in the room: alcohol loss and theft exist, and in many venues they're preferred not to be named. Or they're named with distrust towards the team, which creates a bad atmosphere and usually doesn't fix the root problem.\n\nWatching people doesn't work. Creating a sense of surveillance in the bar demotivates good staff and doesn't guarantee that loss disappears. Besides, loss isn't always intentional: it can be breakages, unrecorded over-pouring, movements that aren't logged, or a system that confuses movement with consumption. Without clear data, it's impossible to tell.\n\nWhat does work is controlling processes. That is, having a system that records what comes in, what moves, and what's consumed, in an objective way. When stock only goes down on real consumption (recorded sale/serve), discrepancies stand out: if there's more consumption than matches sales, or movements that don't add up, the numbers show it. No need to accuse anyone; the data speaks.\n\nTransparency and professionalisation are the way. Control based on objective data reduces generic suspicion (“someone here is taking something”) and lets you address concrete issues: training on recording consumption, reviewing transfer processes, or detecting real anomalies. The team works with the same rules and the same information.\n\nControl doesn't have to create conflict. When the system is the source of truth and not “the one watching,” the focus shifts from people to processes, and the whole business gains in clarity and trust.",
-      "date": "06 Jan, 2025",
+      "date": "06 Feb, 2026",
       "readTime": "5 min read",
       "cta": "Control doesn't have to create conflict."
     },
@@ -105,7 +108,7 @@
       "title": "From small bar to professional venue: how to scale stock control",
       "description": "When Excel isn't enough and you want to grow without losing control, you need a system that scales with you. We explain what changes when you professionalise and how to prepare for more venues.",
       "content": "In a small bar, Excel or a notebook can seem enough. You have one bar, few products, and maybe you handle purchasing and replenishment yourself. But as soon as volume grows—more bars, more shifts, more products—Excel falls short. Errors multiply, hours spent on “reconciliation” too, and the feeling of control is lost.\n\nProfessionalising control means moving from “getting by” to having a single source of truth: a system that records additions, consumption and movements, alerts you when something is low, and lets you see in real time what's there and where. It's not just about “tidiness”; it's the foundation for making purchasing, pricing and operational decisions without improvising.\n\nScalable systems are built to grow. You can start with one bar and one cellar and, when you add a second bar or a second venue, the same system lets you manage multiple locations, rules per bar, and specific alerts. You don't have to change tools every time you take a step forward.\n\nThinking about the future from the present saves headaches. If today you control well with a tool that already supports multiple bars and cellars, when the time comes to open another venue or add another point of sale, the logic is the same: same way of working, same data, same visibility. The jump from “small bar” to “professional venue” or “multiple venues” stops being chaos and becomes an ordered process.\n\nDesigned for the present and ready for the future: that's how stock control should be when you're betting on growth without losing control.",
-      "date": "02 Jan, 2025",
+      "date": "02 Feb, 2026",
       "readTime": "5 min read",
       "cta": "Designed for the present, ready for the future."
     }

@@ -3,7 +3,8 @@
     "solutions": "Soluciones",
     "insights": "Insights",
     "aboutUs": "Sobre Nosotros",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "ariaLabel": "Navegación principal"
   },
   "categories": {
     "allInsights": "Todos los Insights",
@@ -13,6 +14,7 @@
     "realOperative": "Operativa real"
   },
   "home": {
+    "pageTitle": "Insights",
     "featuredLabel": "Destacado",
     "recentInsights": "Insights Recientes",
     "loadMore": "Cargar más artículos",
@@ -25,13 +27,14 @@
     "title": "Insights Semanales",
     "description": "Únete a más de 5,000 profesionales de la hostelería que ya reciben nuestros consejos expertos en control de stock.",
     "placeholder": "Tu email de trabajo",
-    "submit": "Suscribirse Ahora"
+    "submit": "Suscribirse Ahora",
+    "thankYou": "Gracias. Próximamente recibirás nuestras novedades."
   },
   "footer": {
     "privacyPolicy": "Política de Privacidad",
     "termsOfService": "Términos de Servicio",
     "knowledgeBase": "Base de Conocimiento",
-    "copyright": "© 2023 VeroStock Operations SL. Todos los derechos reservados."
+    "copyright": "© 2026 VeroStock Operations SL. Todos los derechos reservados."
   },
   "articleDetail": {
     "backToBlog": "Volver al blog",
@@ -49,7 +52,7 @@
       "title": "Por qué el stock de alcohol falla en la mayoría de bares (y cómo solucionarlo de verdad)",
       "description": "El problema no es la gente: es confundir movimiento con consumo. Te explicamos la causa real y el cambio de paradigma que sí funciona.",
       "content": "«Creía que tenía cinco botellas y me quedé sin ninguna.» Si has escuchado o vivido esta frase en tu bar, no estás solo. Es uno de los dolores más recurrentes en hostelería: el stock que no cuadra, las sorpresas a mitad de servicio y la sensación de que algo se escapa entre las manos.\n\nLa tentación es echar la culpa a la persona que no anotó el movimiento o al que no hizo el inventario. Pero el problema de fondo no suele ser la buena o mala voluntad del equipo. Es el modelo con el que se gestiona el stock.\n\nLos sistemas tradicionales fallan por diseño. El Excel obliga a introducir datos a mano y se queda desactualizado en cuanto alguien olvida una fila. Los inventarios manuales son caros en tiempo, generan conflictos y solo dan una foto en un instante: al día siguiente todo puede haber cambiado. Y el control por movimientos —«saco una botella del almacén y la paso a barra»— parece lógico, pero es justo ahí donde está el error.\n\nEl gran error: confundir movimiento con consumo. Que una botella salga del almacén y esté en la barra no significa que se haya consumido. Puede estar abierta a medias, puede haberse roto, puede haberse servido de más en una ronda. Si bajas el stock cuando mueves la botella, tu número ya no refleja la realidad. Solo refleja que «alguien la movió».\n\nEl cambio de paradigma es simple de entender y difícil de aplicar sin la herramienta adecuada: el stock solo debería bajar cuando se consume. Es decir, cuando hay una venta o un servicio registrado que corresponda a ese producto. Así, el número que ves es el que realmente tienes disponible, no una estimación basada en traslados.\n\nLa tecnología puede eliminar el error humano en este punto. No se trata de vigilar a nadie, sino de que el sistema registre el consumo real (por ejemplo, ligado al TPV o a la venta) y actualice el stock en consecuencia. Sin inventarios eternos, sin Excel desfasado, sin discusiones sobre quién anotó qué. Un sistema donde el stock refleja consumo real es la base para tomar decisiones acertadas: qué reponer, cuándo y en qué cantidades.",
-      "date": "28 Ene, 2025",
+      "date": "28 Feb, 2026",
       "readTime": "6 min de lectura",
       "cta": "Descubre cómo funciona un sistema donde el stock refleja consumo real."
     },
@@ -57,7 +60,7 @@
       "title": "Movimiento ≠ consumo: el error que hace perder dinero a bares y discotecas",
       "description": "Una botella va del almacén a la barra. En la mayoría de locales eso ya se cuenta como «menos stock». Te explicamos por qué ese enfoque cuesta dinero y qué hacer en su lugar.",
       "content": "Imagina una botella de whisky que sale del almacén y se coloca en la barra. En la mayoría de bares y discotecas, ese movimiento se registra como «una unidad menos» en el stock. La hoja de cálculo o el cuaderno dicen: ya no tenemos esa botella en almacén. Y punto.\n\nPero la botella sigue existiendo. Está en la barra, quizá abierta, quizá a medias. Puede servir para veinte copas más o puede caerse a las dos horas. Lo que no ha pasado es que se haya «consumido» en el sentido de venderse o servirse por completo. Sin embargo, el sistema ya la dio por gastada.\n\nEn la mayoría de locales ocurre exactamente eso: se iguala «movimiento» con «consumo». Cada vez que algo se mueve de sitio, el stock baja. El resultado son números que no representan la realidad. No sabes cuántas botellas tienes realmente disponibles; sabes cuántas se han movido. La diferencia se traduce en roturas no explicadas, en sensación de que «algo falta» y en discusiones con el equipo sobre quién apuntó qué.\n\nLo que debería pasar es otro modelo: el stock solo baja cuando hay un consumo real. Es decir, cuando esa botella (o esa cantidad) se ha servido o vendido y queda registrado. Así, en todo momento tienes una visión fiel de qué hay en almacén y qué hay en barra, y de cuánto se ha consumido de verdad.\n\nBajar el stock solo al consumir no es un detalle técnico; es la clave para un control serio. Trae beneficios directos: menos sorpresas por roturas o mermas que «no cuadran», menos discusiones porque los datos son objetivos, y más control sobre reposiciones y compras. El equipo trabaja con una única fuente de verdad.\n\nUn sistema inteligente de control de botellas puede aplicar exactamente esta lógica: registrar altas, movimientos y consumos por separado, y mostrar en tiempo real cuánto hay y cuánto se ha consumido. Sin inventarios manuales interminables y sin confundir movimiento con consumo.",
-      "date": "25 Ene, 2025",
+      "date": "25 Feb, 2026",
       "readTime": "5 min de lectura",
       "cta": "Así funciona nuestro sistema inteligente de control de botellas."
     },
@@ -65,7 +68,7 @@
       "title": "Cómo saber exactamente cuántas botellas tienes sin hacer inventarios",
       "description": "El inventario tradicional es pesado y nadie quiere hacerlo. Te contamos el enfoque automático: alta, consumo e histórico, y qué información tienes en tiempo real.",
       "content": "El inventario tradicional tiene un problema de base: nadie quiere hacerlo. Cerrar el local, contar botella a botella, anotar en una hoja o en una app, reconciliar con lo que «debería» haber… Es caro en tiempo, genera roces con el equipo y solo te da una foto de un instante. Al día siguiente, esa foto ya no sirve.\n\nExiste otro enfoque, y es el automático. No se trata de sustituir el inventario por otra cosa igual de manual, sino de que el sistema construya la verdad del stock a partir de tres pilares: el alta inicial de productos, el registro del consumo (cuando se vende o se sirve) y el histórico de movimientos. Así, en lugar de «parar todo para contar», el sistema sabe en cada momento qué hay y qué se ha consumido.\n\nCon este enfoque tienes en tiempo real la información que importa: cuántas unidades tienes por producto, en qué ubicación (almacén, barra principal, barra de terraza, etc.) si aplicas control por ubicación, y cuánto se ha consumido en un periodo. No necesitas cerrar el local ni dedicar horas a contar.\n\nHay algo igual de importante: qué información no necesitas introducir manualmente. No tienes que anotar cada vez que alguien mueve una botella de un sitio a otro para «actualizar el stock». El sistema puede estar ligado al TPV o a la venta, de modo que el consumo se registra cuando ocurre la venta. Tú te encargas de dar de alta productos y de revisar alertas; el resto puede ser automático.\n\nEl ahorro es doble: tiempo (no más inventarios eternos) y errores (no más números que no cuadran porque alguien olvidó apuntar un movimiento). Saber exactamente cuántas botellas tienes deja de ser una tarea pesada y se convierte en algo que el sistema te muestra cuando lo necesitas.",
-      "date": "22 Ene, 2025",
+      "date": "22 Feb, 2026",
       "readTime": "5 min de lectura",
       "cta": "Automatiza el control de stock y olvídate del inventario manual."
     },
@@ -73,7 +76,7 @@
       "title": "Stock bajo un sábado por la noche: cómo evitarlo con alertas automáticas",
       "description": "El peor momento para quedarte sin un referencia es cuando más clientes tienes. Te explicamos las reglas de stock mínimo y las alertas por WhatsApp con ejemplos reales.",
       "content": "El peor escenario posible es conocido por cualquier hostelero: es sábado por la noche, la sala está llena, y te das cuenta de que te has quedado sin la ginebra que más piden o sin el refresco que acompaña al cóctel estrella. No hay tiempo para ir a comprar, el cliente se conforma con otra cosa o se va con mala sensación, y tú pierdes venta y margen.\n\nEsto suele pasar «cuando más duele»: en el pico de afluencia, cuando más dependes de tener todo a punto. No es casualidad. Sin un control de stock en tiempo real y sin reglas claras, es fácil que una referencia se agote sin que nadie se haya dado cuenta hasta que un camarero va a servirla.\n\nLa solución no es vigilar más, sino definir reglas de stock mínimo. Es decir, fijar para cada producto (o grupo de productos) un umbral: «Cuando queden X unidades, quiero que me avisen». Así, el aviso llega antes de llegar a cero, y puedes reponer en un momento tranquilo o pedir al proveedor con tiempo.\n\nLas alertas automáticas por WhatsApp encajan perfectamente aquí. En lugar de depender de que alguien mire una pantalla o un informe, el sistema envía un mensaje cuando el stock cae por debajo del mínimo configurado. Ejemplos reales de mensajes serían: «Alerta stock: Vodka Premium por debajo del mínimo (3 uds) en barra principal» o «Stock bajo: Refresco Tónico — 2 unidades en almacén. Reponer antes del fin de semana.»\n\nRecibir avisos antes de que sea demasiado tarde cambia la operativa. Dejas de apagar fuegos el sábado por la noche y pasas a tener el control en manos del sistema, con mensajes claros y accionables para ti o para tu encargado.",
-      "date": "18 Ene, 2025",
+      "date": "18 Feb, 2026",
       "readTime": "4 min de lectura",
       "cta": "Recibe avisos antes de que sea demasiado tarde."
     },
@@ -81,7 +84,7 @@
       "title": "Trazabilidad de botellas en bares: qué es y por qué marcará la diferencia",
       "description": "Saber dónde está cada botella y cuándo se movió ya no es ciencia ficción. Te explicamos qué es la trazabilidad en hostelería y para qué sirve en locales grandes o cadenas.",
       "content": "En hostelería, la trazabilidad es la capacidad de seguir el «rastro» de un producto: de dónde viene, dónde está en cada momento y cuándo se movió o se consumió. Para muchas bebidas y alimentos es un requisito legal; para el día a día del bar, es la base de un control profesional.\n\nHasta ahora, en la práctica era casi imposible tener trazabilidad real de cada botella sin dedicar una persona a anotar cada movimiento a mano. Los sistemas clásicos (Excel, cuadernos, incluso muchas apps) no estaban pensados para registrar «esta botella concreta pasó del almacén a la barra A a las 14:32». Por eso la mayoría de locales solo saben «cuántas botellas hay» en total, no «dónde está cada una».\n\nLa trazabilidad bien hecha permite saber dónde está cada botella (almacén, barra principal, barra de terraza, etc.) y cuándo se movió o se consumió. Eso abre la puerta a detectar anomalías: por ejemplo, que una botella aparezca en un sitio donde no debería, o que haya movimientos a horas raras. No se trata de desconfiar del equipo, sino de tener datos objetivos para mejorar procesos y evitar pérdidas.\n\nEste nivel de control es especialmente valioso en locales grandes, con varias barras o varios turnos, o en cadenas con varios establecimientos. Cuando el volumen crece, «contar botellas» ya no basta; hace falta saber en qué punto de la operativa está cada una y poder auditar el histórico.\n\nLa tecnología actual permite este siguiente nivel sin volver a los inventarios manuales eternos. Es el paso natural cuando quieres profesionalizar el control y prepararte para crecer.",
-      "date": "14 Ene, 2025",
+      "date": "14 Feb, 2026",
       "readTime": "5 min de lectura",
       "cta": "Prepárate para el siguiente nivel de control."
     },
@@ -89,7 +92,7 @@
       "title": "Control de stock por barras: el gran salto en la gestión de locales",
       "description": "Una barra saturada y otra vacía con el mismo producto es un clásico. Te explicamos por qué el stock global no basta y cómo funcionan las reglas y alertas por barra.",
       "content": "El problema típico en locales con más de una barra es este: en la barra principal hay tres botellas de un licor que se pide mucho; en la barra de la terraza o en la de la sala VIP no queda ninguna. El stock «global» del local podría ser correcto, pero donde hace falta —en esa barra— no está. Resultado: el camarero de la terraza tiene que ir a la otra punta del local a por la botella, se pierde tiempo y el servicio se resiente.\n\nPor eso el stock global no es suficiente cuando tienes varias barras. Necesitas saber cuánto hay en cada ubicación y poder definir reglas por ubicación: por ejemplo, «en la barra de terraza quiero un mínimo de dos unidades de este producto».\n\nCon control de stock por barras, cada barra se gestiona como una unidad independiente en cuanto a existencias. Das de alta movimientos entre barras (traspasos) y el sistema sabe en todo momento qué hay en cada una. Así puedes configurar alertas específicas por barra: «Avísame cuando en la barra de terraza queden menos de 2 botellas de Vodka Premium», sin mezclar con lo que hay en la barra principal.\n\nLa mejora en la reposición interna es clara. En lugar de descubrir el desequilibrio cuando un camarero va a servir y no hay stock en su barra, recibes un aviso o ves en un vistazo qué barra necesita qué. Puedes reponer de almacén o traspasar entre barras con criterio, no a base de «me han dicho que falta».\n\nGestionar cada barra como una unidad independiente es el gran salto cuando pasas de un solo punto de venta a varios: más control, menos improvisación y un servicio más fluido.",
-      "date": "10 Ene, 2025",
+      "date": "10 Feb, 2026",
       "readTime": "5 min de lectura",
       "cta": "Gestiona cada barra como una unidad independiente."
     },
@@ -97,7 +100,7 @@
       "title": "Cómo reducir pérdidas y robos de alcohol sin vigilar a tu equipo",
       "description": "El tema incómodo que muchos evitan: las pérdidas y el robo. Te explicamos por qué vigilar personas no funciona y por qué controlar procesos y datos sí.",
       "content": "Es el elefante en la habitación: las pérdidas de alcohol y los robos existen, y en muchos locales se prefieren no nombrar. O se nombran con desconfianza hacia el equipo, lo que genera mal ambiente y no suele resolver el problema de fondo.\n\nVigilar personas no funciona. Crear sensación de control policial en el bar desmotiva a los buenos profesionales y no garantiza que desaparezcan las pérdidas. Además, las pérdidas no siempre son intencionadas: pueden deberse a roturas, a servidos de más no registrados, a movimientos que no se apuntan o a un sistema que confunde movimiento con consumo. Sin datos claros, es imposible distinguir.\n\nLo que sí funciona es controlar procesos. Es decir, tener un sistema que registre qué entra, qué se mueve y qué se consume, de forma objetiva. Cuando el stock solo baja por consumo real (venta/servicio registrado), las desviaciones saltan a la vista: si hay más consumo del que corresponde a las ventas, o si hay movimientos que no cuadran, los números lo muestran. No hace falta acusar a nadie; los datos hablan.\n\nLa transparencia y la profesionalización son el camino. Un control basado en datos objetivos reduce las sospechas genéricas («aquí alguien se lleva algo») y permite abordar problemas concretos: formación en registro de consumos, revisión de procesos de traspaso, o detección de anomalías reales. El equipo trabaja con las mismas reglas y la misma información.\n\nEl control no tiene por qué generar conflictos. Cuando el sistema es la fuente de verdad y no «el que vigila», el foco pasa de las personas a los procesos, y todo el negocio gana en claridad y confianza.",
-      "date": "06 Ene, 2025",
+      "date": "06 Feb, 2026",
       "readTime": "5 min de lectura",
       "cta": "El control no tiene por qué generar conflictos."
     },
@@ -105,7 +108,7 @@
       "title": "De bar pequeño a local profesional: cómo escalar el control de stock",
       "description": "Cuando el Excel se queda pequeño y quieres crecer sin perder el control, hace falta un sistema que escale contigo. Te contamos qué cambia al profesionalizar y cómo prepararte para más locales.",
       "content": "En un bar pequeño, un Excel o un cuaderno pueden parecer suficientes. Tienes una barra, pocas referencias y quizá tú mismo controlas compras y reposición. Pero en cuanto el volumen crece —más barras, más turnos, más productos— el Excel se queda pequeño. Los errores se multiplican, las horas dedicadas al «cuadre» también, y la sensación de control se pierde.\n\nProfesionalizar el control significa pasar de «ir tirando» a tener una única fuente de verdad: un sistema que registre altas, consumos y movimientos, que te avise cuando algo está bajo y que te permita ver en tiempo real qué hay y dónde. No es solo una cuestión de «orden»; es la base para tomar decisiones de compra, de precios y de operativa sin improvisar.\n\nLos sistemas escalables están pensados para crecer. Puedes empezar con una barra y un almacén y, cuando abras una segunda barra o un segundo local, el mismo sistema te permite gestionar varias ubicaciones, reglas por barra y alertas específicas. No tienes que cambiar de herramienta cada vez que das un paso más.\n\nPensar en el futuro desde el presente ahorra dolores de cabeza. Si hoy controlas bien con una herramienta que ya soporta varias barras y varios almacenes, cuando llegue el momento de abrir otro local o de incorporar otro punto de venta, la lógica es la misma: misma forma de trabajar, mismos datos, misma visibilidad. El salto de «bar pequeño» a «local profesional» o a «varios locales» deja de ser un caos y se convierte en un proceso ordenado.\n\nDiseñado para el presente y preparado para el futuro: así debería ser el control de stock cuando apuestas por crecer sin perder el control.",
-      "date": "02 Ene, 2025",
+      "date": "02 Feb, 2026",
       "readTime": "5 min de lectura",
       "cta": "Diseñado para el presente, preparado para el futuro."
     }
